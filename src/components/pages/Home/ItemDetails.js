@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
-import useFetch from './hooks/useFetch';
-import Sidebar from './Sidebar';
+import useFetch from '../../hooks/useFetch';
+import Sidebar from '../../Sidebar';
 
 const ItemDetails = ({ cart, addToCart, totalCost }) => {
   const { id } = useParams();

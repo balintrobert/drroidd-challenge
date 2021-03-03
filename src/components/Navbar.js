@@ -19,7 +19,7 @@ const Navbar = () => {
         </li>
         <li className='search-button'>
           <a href='#search'>
-            <i class='fas fa-search'></i>
+            <i className='fas fa-search'></i>
           </a>
         </li>
       </ul>

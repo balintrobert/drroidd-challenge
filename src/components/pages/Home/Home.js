@@ -1,7 +1,7 @@
 import React from 'react';
-import useFetch from '../hooks/useFetch';
-import Sidebar from '../Sidebar';
-import ItemList from '../ItemList';
+import useFetch from '../../hooks/useFetch';
+import Sidebar from '../../Sidebar';
+import ItemList from './ItemList';
 
 const Home = ({ cart, totalCost }) => {
   const { data: items, error, isPending } = useFetch(

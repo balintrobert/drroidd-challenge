@@ -1,5 +1,5 @@
 import React from 'react';
-import Item from './Item';
+import Item from './pages/Home/Item';
 
 const Sidebar = ({ totalCost, cart }) => {
   console.log(cart);
@@ -7,7 +7,7 @@ const Sidebar = ({ totalCost, cart }) => {
     <div className='sidebar'>
       <div className='sidebar--contact'>
         <h3 className='sidebar--contact-title'>
-          <i class='fas fa-address-book'></i>
+          <i className='fas fa-address-book'></i>
           Contact
         </h3>
         <div className='sidebar--contact-text'>
@@ -17,7 +17,7 @@ const Sidebar = ({ totalCost, cart }) => {
       </div>
       <div className='sidebar--cart'>
         <h3 className='sidebar--cart-title'>
-          <i class='fas fa-shopping-cart'></i>
+          <i className='fas fa-shopping-cart'></i>
           Cart
         </h3>
         <div className='sidebar--cart-item-container'>
